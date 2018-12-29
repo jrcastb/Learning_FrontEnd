@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Prueba dos" content="Explorando contenido en html5 parte dos">
+        <link rel="stylesheet" href="" role="link">
+        <title>Ejercicios</title>
+    </head>
+
+    <body>
+        <!--La etiqueta header para la parte de cabecera -->
+        <div class="contenedor">
+            <header role="banner">
+                 <div class="logotipo">
+                        <img src="../imagenes/castle.PNG" width="150" height="100" alt="logotipo">
+                 </div>
+                 <!--La etiqueta nav para dennotar la barra de navegación-->
+                 <nav class="navegacion" role="navigation">
+                    Menú aquí
+                 </nav>
+            </header>
+            <!--La etiqueta main va el contenido principal de la pagina-->
+            <main class="Contenido_principal" role="main">
+                <!--El section se identifica por el primer hijo que por lo general es un h1 o h2 o h3-->
+                <section>
+                    <h2>Nuestros cursos de IoT</h2>
+                    <div>
+                        <h3>Raspberry pi 3</h3>
+                        <img src="../imagenes/raspberry-pi.png" alt="Raspberry" width="100" height="100">
+                    </div>
+                    <div>
+                        <h3>PicC</h3>
+                        <img src="../imagenes/microchip.png" alt="Raspberry" width="100" height="100">
+                    </div>
+                    <div>
+                        <h3>CISCO</h3>
+                        <img src="../imagenes/cisco.png" alt="Raspberry" width="100" height="100">
+                    </div>
+                </section>
+                <section>
+                    <h2>Ultimas noticias</h2>
+                    <article role="article">
+                        <h3>El internet de las cosas es una disciplina con un amplio campo de acción</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate ad, eveniet corporis odio quas at laboriosam, neque nihil molestias eos natus in reiciendis earum! Sapiente corrupti quae soluta maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere totam quas error quae quasi expedita sit magnam, deleniti eos officiis aspernatur assumenda iste dolore rerum deserunt perspiciatis cumque unde ad?</p>
+                    </article>
+                    <article role="article">
+                        <h3>Utilizando los distintos lenguajes de programación</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate ad, eveniet corporis odio quas at laboriosam, neque nihil molestias eos natus in reiciendis earum! Sapiente corrupti quae soluta maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere totam quas error quae quasi expedita sit magnam, deleniti eos officiis aspernatur assumenda iste dolore rerum deserunt perspiciatis cumque unde ad?</p>
+                    </article>
+                </section>
+            </main>
+            <!--El aside está diseñado para ubicarse en la parte derecha de la pagina web-->
+            <aside role="complementary">
+                <h2>Proximos contenidos</h2>
+                <div>
+                    <h3>Arduino</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem ad dicta quaerat ut excepturi temporibus corporis, praesentium dolorum quia quo veritatis totam ipsum cumque blanditiis, debitis non cupiditate unde!</p>
+                    <h3>Msp430</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem ad dicta quaerat ut excepturi temporibus corporis, praesentium dolorum quia quo veritatis totam ipsum cumque blanditiis, debitis non cupiditate unde!</p>
+                </div>
+            </aside>
+        </div> <!--.contenedor (se usa el punto porque se trata de una clase, si fuera un id sería con un #)-->
+        
+        <footer role="contentinfo">
+            <div class="Nosotros">
+                <h3>Mis redes sociales</h3>
+                <img src="../imagenes/instagram.png" alt="instagram" height="50">
+                <img src="../imagenes/youtube.png" alt="youtube" height="50">
+                <img src="../imagenes/facebook.png" alt="facebook" height="50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem hic culpa, accusantium corrupti explicabo ad! Obcaecati ducimus beatae, tenetur possimus itaque excepturi odit consectetur impedit, voluptas eos aspernatur quidem!</p>
+            </div>
+            <div class="menu">
+                <nav class="navegacion" role="navigation">
+                   Segundo menú aquí 
+                </nav>
+            </div>
+            <p>Cursos de IoT &mdash; All rights reservs &copy;</p>
+        </footer>
+    </body>
+</html>
