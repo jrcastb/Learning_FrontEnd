@@ -18,6 +18,14 @@
                  <!--La etiqueta nav para dennotar la barra de navegación-->
                  <nav class="navegacion" role="navigation">
                     Menú aquí
+                    <!--También se puede poner una imagen para enlazar-->
+                    <a href="../Frontend/naipes.html" target="blank">Ir a naipes</a>
+                    <ul> <!--Lista sin orden-->
+                        <li><a href="../Frontend/Informacion.html">Sobre nosotros</a></li>
+                        <li><a href="#"">Cursos</a></li>
+                        <li><a href="#noticias">Ultimas noticias</a></li>
+                        <li><a href="https://www.google.com/" target="blank">Ir al buscador</a></li> <!--para enlaces externos siempre se debe usar el http:// o https://-->
+                    </ul>
                  </nav>
             </header>
             <!--La etiqueta main va el contenido principal de la pagina-->
@@ -28,6 +36,35 @@
                     <div>
                         <h3>Raspberry pi 3</h3>
                         <img src="../imagenes/raspberry-pi.png" alt="Raspberry" width="100" height="100">
+                        <a href="../Diploma.pdf" download="Diploma">Descargar documento</a>
+                        
+                        <p>Ventajas de este curso:</p>
+                        <ul>
+                            <li>Lo puiedes tomar en linea <!--lista anidada-->
+                                <ul>
+                                    <li>En Castle corp</li>
+                                    <li>En cualquier horario</li>
+                                </ul>
+                            </li><!--List item o elemento de la lista-->
+                            <li>Avanzas a tu ritmo</li>
+                            <li>Si tienes dudas el solucionamos tus incognitas</li>
+                        </ul>
+                        <p>Temario del curso:</p>
+                        <ol><!--Order list-->
+                            <li>Instalación del sistema operativo: Raspbian</li>
+                                <ol>
+                                    <li>Descargar Noobs.zip</li>
+                                </ol>
+                            <li>Configuraciones iniciales</li>
+                            <li>Instalación de python 3.5</li>
+                        </ol>
+                        <p>Lo que debes aprender para IoT</p>
+                        <dl><!--Description list-->
+                            <dt>Python</dt>
+                            <dd>Utilizado para procesamiento</dd>
+                            <dt>Linux</dt>
+                            <dt>Sistema operativo donde corre todo</dt>
+                        </dl>
                     </div>
                     <div>
                         <h3>PicC</h3>
@@ -38,7 +75,7 @@
                         <img src="../imagenes/cisco.png" alt="Raspberry" width="100" height="100">
                     </div>
                 </section>
-                <section>
+                <section id="noticias">
                     <h2>Ultimas noticias</h2>
                     <article role="article">
                         <h3>El internet de las cosas es una disciplina con un amplio campo de acción</h3>
@@ -74,7 +111,7 @@
                 <nav class="navegacion" role="navigation">
                    Segundo menú aquí 
                 </nav>
-            </div>
+            </div> <!--.menu-->
             <p>Cursos de IoT &mdash; All rights reservs &copy;</p>
         </footer>
     </body>
