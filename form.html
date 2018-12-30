@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="form" content="El primer formulario realizado">
+        <title>Formularios y campos</title>
+    </head>
+    <body>
+        <h2>Creando formularios</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Tus datos personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="on">
+                <br> <br>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="Apellido" name="Apellido" placeholder="Tu Apellido" autocomplete="on">
+                <br> <br>
+                <label for="sexo">Sexo:</label>
+                <br><br>
+                <input type="radio" id="sexo" name="sexo" value="Hombre"checked autofocus> Hombre <br>
+                <input type="radio" id="sexo" name="sexo" value="Mujer"> Mujer <br>
+                <input type="radio" id="sexo" name="sexo" value="Otro"> Otro <br>
+            </fieldset>
+            <fieldset>
+                <legend>Información sobre tu curso</legend>
+                <label for="turno">Turno:</label>
+                <select class="turno" name="turno" id="turno">
+                    <option value="Matutino">Matutino</option>
+                    <option value="Vespertino" selected>Vespertino</option>
+                    <option value="Nocturno">Nocturno</option>
+                </select>
+            </fieldset>
+            <br><br>
+            <input type="submit" value="enviar">
+
+        </form>
+    </body>
+</html>
