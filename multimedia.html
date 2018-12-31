@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="multimedia" content="Videos y auidios agregados">
+        <title>multimedia</title>
+    </head>
+    <body>
+       <h2>Video HTML5</h2><!--Con autoplay no funciona el atributo poster correctamente-->
+       <video width="640" height="360" controls preload="metadata" autoplay muted loop poster="../frontend/img/poster.jpg"><!--None = no carga el video al abrir. auto = Maneja los recursos de descarga del video. metadata = Igual que auto pero muestra la duración del video-->
+            <source src="../frontend/video/codigo.mp4" type="video/mp4"><!--Siempre poner .mp4 primero-->
+            <source src="../frontend/video/codigo.ogv" type="video/ogg">
+            <source src="../frontend/video/codigo.webm" type="video/webm">
+       </video> <!--Con el atributo "controls" se agrega el formato que permite la reproducción y compatilibilidad de los videos y audios con algunos navegadores-->
+       <p>Tu navegador no soporta video</p>
+       <h2>Audio HTML5</h2>
+       <audio controls preload="none" autoplay loop>
+            <source src="../frontend/audio/audio.m4a"  type="audio/m4a"><!--Siempre poner .m4a primero-->
+            <source src="../frontend/audio/audio.oga"  type="audio/ogg">
+        </audio>
+    </body>
+</html>
