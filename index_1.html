@@ -6,6 +6,9 @@
         <meta name="Prueba dos" content="Explorando contenido en html5 parte dos">
         <link rel="stylesheet" href="" role="link">
         <title>Ejercicios</title>
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+       
     </head>
 
     <body>
@@ -13,15 +16,15 @@
         <div class="contenedor">
             <header role="banner">
                  <div class="logotipo">
-                        <img src="../Imagenes/Hojas.png" width="150" height="100" alt="logotipo">
+                        <img src="imagenes/Hojas.png" id="logo" width="120" height="100" alt="logotipo">
                  </div>
                  <!--La etiqueta nav para dennotar la barra de navegación-->
                  <nav class="navegacion" role="navigation">
                     Menú aquí
                     <!--También se puede poner una imagen para enlazar-->
-                    <a href="../frontend/naipes.html" target="blank">Ir a naipes</a>
+                    <a href="naipes.html" target="blank">Ir a naipes</a>
                     <ul> <!--Lista sin orden-->
-                        <li><a href="../frontend/Informacion.html">Sobre nosotros</a></li>
+                        <li><a href="Informacion.html">Sobre nosotros</a></li>
                         <li><a href="#"">Cursos</a></li>
                         <li><a href="#noticias">Ultimas noticias</a></li>
                         <li><a href="https://www.google.com/" target="blank">Ir al buscador</a></li> <!--para enlaces externos siempre se debe usar el http:// o https://-->
@@ -29,14 +32,14 @@
                  </nav>
             </header>
             <!--La etiqueta main va el contenido principal de la pagina-->
-            <main class="Contenido_principal" role="main">
+            <main class="contenido_principal" role="main">
                 <!--El section se identifica por el primer hijo que por lo general es un h1 o h2 o h3-->
                 <section>
-                    <h2>Nuestros cursos de IoT</h2>
+                    <h2 id="titulo" class="titulo">Nuestros cursos de IoT</h2>
                     <div>
                         <h3>Raspberry pi 3</h3>
-                        <img src="../imagenes/png/email.png" alt="Raspberry" width="100" height="100">
-                        <a href="../frontend/CURRICULUM.pdf" download="CURRICULUM">Descargar documento</a>
+                        <img src="imagenes/raspberry-pi.png" alt="Raspberry" width="100" height="100">
+                        <a href="Diploma.pdf" download="Diploma" target="blank">Descargar documento</a>
                         
                         <p>Ventajas de este curso:</p>
                         <ul>
@@ -68,11 +71,11 @@
                     </div>
                     <div>
                         <h3>PicC</h3>
-                        <img src="../imagenes/png/google-plus.png" alt="Raspberry" width="100" height="100">
+                        <img src="imagenes/microchip.png" alt="Raspberry" width="100" height="100">
                     </div>
                     <div>
                         <h3>CISCO</h3>
-                        <img src="../imagenes/png/linkedin.png" alt="Raspberry" width="100" height="100">
+                        <img src="imagenes/cisco.png" alt="Raspberry" width="100" height="100">
                     </div>
                 </section>
                 <section id="noticias">
@@ -138,9 +141,9 @@
         <footer role="contentinfo">
             <div class="Nosotros">
                 <h3>Mis redes sociales</h3>
-                <img src="../Imagenes/png/instagram.png" alt="instagram" height="50">
-                <img src="../Imagenes/png/youtube.png" alt="youtube" height="50">
-                <img src="../Imagenes/png/facebook.png" alt="facebook" height="50">
+                <img src="imagenes/instagram.png" alt="instagram" height="50">
+                <img src="imagenes/youtube.png" alt="youtube" height="50">
+                <img src="imagenes/facebook.png" alt="facebook" height="50">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem hic culpa, accusantium corrupti explicabo ad! Obcaecati ducimus beatae, tenetur possimus itaque excepturi odit consectetur impedit, voluptas eos aspernatur quidem!</p>
             </div>
             <div class="menu">

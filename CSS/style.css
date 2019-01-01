@@ -1,3 +1,29 @@
-body {
-	background:#E1CD45;
+/* comentario */
+body/*selector*/ {
+	background:#E1CD45;/*declaración*/
+}
+h1{
+	color: darkblue;/*color --> propiedad - darkblue --> valor*/
+}
+h2{
+	color: crimson;
+	text-transform: uppercase;/* mayusculas*/
+	background-color: black;
+	padding: 20px;
+}
+p{
+	font-size: 30px;
+}
+#logo{
+	margin-top: 5%;
+}
+#titulo{/*selector para id*/
+	color: brown;
+}
+.contenido_principal{/*selector para clases*/
+	background-color: cadetblue;
+}
+/*Selectores con clase y ID*/
+#titulo.titulo{ /*si tiene un ID y una clase tiene mas peso sobre otros selectores*/
+	font-size: 60px;
 }
